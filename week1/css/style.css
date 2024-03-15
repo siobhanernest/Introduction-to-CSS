@@ -1,4 +1,94 @@
+/*
+palette:
+#a2b9bc -- blue
+#b2ad7f -- sage
+#878f99 -- gray
+#6b5b95 -- purple
+*/
+
 html {
   height: 100%;
   width: 100%;
+}
+
+body {
+  font-family: Lato, Arial, sans-serif;
+  font-size: 1em;
+  color: #36454F;
+}
+
+header {
+  padding: .75em;
+  background-color: #878f99;
+  text-align: center;
+}
+
+nav {
+  padding: 0 0.75em 0 .75em;
+  margin: .75em;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border: thin solid #6b5b95;
+}
+
+main {
+  font-size: 1.25em;
+  padding: .75em;
+  margin: .75em;
+}
+
+footer {
+  font-size: 0.9em;
+  color: white;
+  background-color: #2b2b2b;
+  padding: 0 3em 0 3em;
+  margin: .75em;
+  border: thick double #878f99;
+}
+
+h1 {
+  background-color: #ffffff;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #6b5b95;
+  text-transform: uppercase;
+  text-align: center;
+  border: thin solid #6b5b95;
+  padding: .25em 0.75em .25em .75em;
+  margin: .4em;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  padding: .2em;
+}
+
+a {
+  color: #6b5b95;
+}
+
+a:hover {
+  background-color: #a2b9bc;
+}
+
+nav a {
+  color: #6b5b95;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 .3em 0 .3em;
+  font-weight: 600;
+}
+
+footer a {
+  color: #ffffff !important;
 }
