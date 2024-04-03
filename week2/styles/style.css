@@ -24,17 +24,31 @@ header {
 }
 
 nav {
-  padding: 0 0.75em 0 .75em;
-  margin: .75em;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
   background-color: #e3e3e3;
-  text-transform: uppercase;
   border: thin solid #6b5b95;
+  vertical-align: middle;
+  height: 40px;
 }
 
 main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  grid-template-columns: 22% 22% 22% 22%;
+  justify-content: space-between;
   font-size: 1.25em;
   background-color: #e3e3e3;
   padding: .75em;
+}
+
+main div {
+  display: inline-block;
 }
 
 footer {
@@ -86,12 +100,18 @@ nav a {
   text-decoration: none;
 }
 
-nav li {
+nav div {
   display: inline-block;
-  width: 25%;
-  font-weight: 600;
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 2vw;
 }
 
 footer a {
   color: #ffffff !important;
+}
+
+#header-logo {
+  position: absolute;
+  left: 40px;
 }
